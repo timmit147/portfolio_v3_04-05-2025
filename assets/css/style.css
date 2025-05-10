@@ -1,15 +1,27 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-display: swap;
+}
+
+
 body{
     margin: 0;
+      font-family: 'Open Sans', sans-serif;
 }
 
 .header {
-    font-family: Arial, Helvetica, sans-serif;
     max-width: 1250px;
     margin: 0 auto;
-    padding: 80px 60px;
+    padding: 100px 60px;
+    background-color: #f5f3f3;
     .title{
         font-size: 40px;
         margin-bottom: 20px;
+        margin-top: 0;
+        font-weight: 900;
     }
     .link{
         color: #416FC4;
@@ -24,6 +36,9 @@ body{
         background-color: #416FC4;
         left: 2px;
         bottom: 0;
+    }
+    @media (max-width: 1150px) {
+        padding: 80px 20px;
     }
 }
 
@@ -53,21 +68,30 @@ body{
     }
     .title{
         font-weight: 900;
+        margin-top: 0;
     }
     .link {
         text-decoration: none;
         border: 1px solid;
         padding: 6px 10px;
         cursor: pointer;
-        color: black;
         font-weight: 500;
         display: block;
         width: fit-content;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
     }
 
     .link:hover {
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
+    }
+    @media (max-width: 1150px) {
+        flex-direction: column;
+        gap: 10px;
+        align-items: baseline;
+        padding: 40px 20px;
     }
 }
 
@@ -227,4 +251,22 @@ body{
     }    
 }
 
+#junis{
+    .title{
+        color: #FAB80E;
+    }    
+}
+
+#mthekwerken{
+    .title{
+        color: #34A853;
+    }    
+}
+
+
+#peacock-ia{
+    .title{
+        color: #0C3F6C;
+    }    
+}
 
