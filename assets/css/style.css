@@ -65,6 +65,10 @@ body{
     }
     .bold{
         font-weight: 600;
+        margin-top: 15px;
+    }
+    .normal{
+        margin-inline-start: 0;
     }
     .title{
         font-weight: 900;
