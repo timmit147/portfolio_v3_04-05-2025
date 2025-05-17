@@ -15,8 +15,13 @@ body{
 .header {
     max-width: 1250px;
     margin: 0 auto;
-    padding: 100px 60px;
+    padding: 60px;
     background-color: #f5f3f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
     .title{
         font-size: 40px;
         margin-bottom: 20px;
@@ -28,6 +33,14 @@ body{
         text-decoration: none;
         position: relative;
         font-weight: 600;
+    }
+    .images{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 200px;
     }
     .line {
         position: absolute;
@@ -93,9 +106,52 @@ body{
 }
 
 
-#vandijkKaas{
+#vandijkkaas{
     .title{
         color: #49DCB0;
+    }    
+}
+
+
+#iqip{
+    .title{
+        color: #e4003b;
+    }    
+}
+
+#demonchy{
+    .title{
+        color: #34b18f;
+    }    
+}
+
+#netstar{
+    .title{
+        color: #226e96;
+    }    
+}
+
+#peacockia{
+    .title{
+        color: #8b2360;
+    }    
+}
+
+#robsnel{
+    .title{
+        color: #d8182d;
+    }    
+}
+
+#weid{
+    .title{
+        color: #01dcc2;
+    }    
+}
+
+#framestory{
+    .title{
+        color: #1386b6;
     }    
 }
 
@@ -122,6 +178,13 @@ body{
         color: #EE7100;
     }    
 }
+
+#moduloo{
+    .title{
+        color: #c2b291;
+    }    
+}
+
 
 #derodewinkel{
     .title{
